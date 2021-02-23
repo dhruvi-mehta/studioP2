@@ -1,0 +1,22 @@
+body {
+	background-image: url("./images/color.png");
+	background-size:1444px 665px ;
+	background-repeat:no-repeat; 
+	background-repeat: no-repeat
+	background: fixed;
+}
+
+
+#button {
+	width: 150px;
+	padding: 25px;
+	margin: 30px;
+	font-family: serif;
+	font-size: 30px;
+	text-align: center;
+	background-color: white;
+}
+
+#button:hover {
+	cursor: pointer;
+}
