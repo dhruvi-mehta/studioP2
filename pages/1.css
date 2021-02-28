@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'merriweatherregular';
+    src: url('merriweather-regular-webfont.woff2') format('woff2'),
+         url('merriweather-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	height: 100vh;
+	margin:0;
+}
+
+#text { 
+	font-family: 'merriweatherregular';
+	font-size:30px;
+	padding-top:160px;
+	padding-left:150px;
+	padding-right:150px;
+	text-align:justify;
+
+ }
+
+.page1 {
+	background-color:#F8EF1A;
+	height: 100vh;
+	margin:0px;
+
+}
+
+.page2 {
+	background-color:#FAC712;
+	height: 100vh;
+	margin:0px;
+
+}
+
+.page3 {
+	background-color:#F7A026;
+	height: 100vh;
+	margin:0px;
+
+}
+
+.page4 {
+	background-color:#F26422;
+	height: 100vh;
+	margin:0px;
+
+}
+
+.page5 {
+	background-color:#EE3124;
+	height: 100vh;
+	margin:0px;
+
+}
+
+.page6 {
+	background-color:#D2268F;
+	height: 100vh;
+	margin:0px;
+}
+
+.page7 {
+	background-color:#703E98;
+	height: 100vh;
+	margin:0px;
+}
+
+.page8 {
+	background-color:#3a48ba;
+	height: 100vh;
+	margin:0px;
+}
+
+.page9 {
+	background-color:#1286DF;
+	height: 100vh;
+	margin:0px;
+}
+
+.page10 {
+	background-color:#00C2AF;
+	height: 100vh;
+	margin:0px;
+}
+
+.page11{
+	background-color:#28B34B;
+	height: 100vh;
+	margin:0px;
+}
+
+.page12{
+	background-color:#85C440;
+	height: 100vh;
+	margin:0px;
+}
+
+#button {
+	width: 100px;
+	padding: 25px;
+	margin: 30px;
+	font-family: serif;
+	font-size: 20px;
+	text-align: center;
+	background-color: white;
+	z-index:+1;
+
+}
+
+#button:hover {
+	cursor: pointer;
+}
