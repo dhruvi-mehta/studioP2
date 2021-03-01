@@ -193,10 +193,6 @@ body.play .container {
 	cursor: pointer;
 }
 
-
-
-
-
 #triangle-down {
       width: 0;
       height: 0;
@@ -212,3 +208,254 @@ body.play .container {
 
 
 	<style>.cls-1{fill:#feef00;}.cls-2{fill:#fac712;}.cls-3{fill:#f69f23;}.cls-4{fill:#fb6312;}.cls-5{fill:#ff2600;}.cls-6{fill:#d2298e;}.cls-7{fill:#7421b0;}.cls-8{fill:#3a48ba;}.cls-9{fill:#006fc4;}.cls-10{fill:#00c2af;}.cls-11{fill:#00b500;}.cls-12{fill:#7fd200;}</style>
+
+
+@media screen and (max-width: 1024px) {
+
+.container{
+	top: -50%;
+    left: -77%;
+	background-image: url("./images/colour.svg");
+	height:250vh;
+	width:250vw;
+	position:absolute;
+	background-size:100% auto;  /*1st try: cover; 2nd try: 200vh auto */
+    background-position: center;
+    z-index: -1;
+    animation: spin4 7s ease-out; 
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+	animation-play-state: paused;
+	overflow-y:hidden;
+
+}
+
+@keyframes spin4 { /*4*/
+	0% {
+		transform: rotate(0deg)
+	}
+	
+
+	100% {
+		transform: rotate(3150deg);
+	}
+}
+
+
+body.play .container {
+	animation-play-state: running;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+.container{
+	top: -70%;
+    left: -77%;
+	background-image: url("./images/colour.svg");
+	height:250vh;
+	width:250vw;
+	position:absolute;
+	background-size:100% auto;  /*1st try: cover; 2nd try: 200vh auto */
+    background-position: center;
+    z-index: -1;
+    animation: spin4 7s ease-out; 
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+	animation-play-state: paused;
+	overflow-y:hidden;
+
+}
+
+@keyframes spin4 { /*4*/
+	0% {
+		transform: rotate(0deg)
+	}
+	
+
+	100% {
+		transform: rotate(3150deg);
+	}
+}
+
+
+
+body.play .container {
+	animation-play-state: running;
+}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+.container{
+	top: -30%;
+    left: -77%;
+	background-image: url("./images/colour.svg");
+	height:250vh;
+	width:250vw;
+	position:absolute;
+	background-size:100% auto;  /*1st try: cover; 2nd try: 200vh auto */
+    background-position: center;
+    z-index: -1;
+    animation: spin4 7s ease-out; 
+    animation-fill-mode:forwards;
+    animation-iteration-count:1;
+	animation-play-state: paused;
+	overflow-y:hidden;
+
+}
+
+@keyframes spin4 { /*4*/
+	0% {
+		transform: rotate(0deg)
+	}
+	
+
+	100% {
+		transform: rotate(3150deg);
+	}
+}
+
+
+body.play .container {
+	animation-play-state: running;
+}
+
+}
+
+
+body {
+background-color: #800000;
+}
+}
+
+@media screen and (max-width: 320px) {
+
+.container {
+    top: 0;
+    left: -77%;
+    background-image: url(./images/colour.svg);
+    height: 250vh;
+    width: 250vw;
+    position: fixed;
+    background-size: 100% auto;
+    background-position: center;
+    z-index: -1;
+    animation: spin4 7s ease-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    overflow-y: hidden;
+
+}
+
+@keyframes spin4 { /*4*/
+	0% {
+		transform: rotate(0deg)
+	}
+	
+
+	100% {
+		transform: rotate(3150deg);
+	}
+}
+
+
+body.play .container {
+	animation-play-state: running;
+}
+
+}
+
+
+body {
+background-color: #800000;
+}
+}
+
+@media screen and (max-width: 320px) {
+
+.container {
+    top: 0;
+    left: -77%;
+    background-image: url(./images/colour.svg);
+    height: 250vh;
+    width: 250vw;
+    position: fixed;
+    background-size: 100% auto;
+    background-position: center;
+    z-index: -1;
+    animation: spin4 7s ease-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    overflow: hidden;
+
+}
+
+@keyframes spin4 { /*4*/
+	0% {
+		transform: rotate(0deg)
+	}
+	
+
+	100% {
+		transform: rotate(3150deg);
+	}
+}
+
+
+body.play .container {
+	animation-play-state: running;
+}
+
+}
+
+@media screen and (max-width: 534px) {
+
+.container {
+    top: 0;
+    left: -77%;
+    background-image: url(./images/colour.svg);
+    height: 250vh;
+    width: 250vw;
+    position: fixed;
+    background-size: 100% auto;
+    background-position: center;
+    z-index: -1;
+    animation: spin4 7s ease-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    overflow-y: hidden;
+
+}
+
+@keyframes spin4 { /*4*/
+	0% {
+		transform: rotate(0deg)
+	}
+	
+
+	100% {
+		transform: rotate(3150deg);
+	}
+}
+
+
+body.play .container {
+	animation-play-state: running;
+}
+
+}
+
+}
+
+
+
+
+

@@ -316,21 +316,21 @@ background-color: #800000;
 
 @media screen and (max-width: 320px) {
 
-.container{
-	top: -30%;
+.container {
+    top: 0;
     left: -77%;
-	background-image: url("./images/colour.svg");
-	height:250vh;
-	width:250vw;
-	position:absolute;
-	background-size:100% auto;  /*1st try: cover; 2nd try: 200vh auto */
+    background-image: url(./images/colour.svg);
+    height: 250vh;
+    width: 250vw;
+    position: fixed;
+    background-size: 100% auto;
     background-position: center;
     z-index: -1;
-    animation: spin1 7s ease-out; 
-    animation-fill-mode:forwards;
-    animation-iteration-count:1;
-	animation-play-state: paused;
-	overflow-y:hidden;
+    animation: spin 7s ease-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    overflow-y: hidden;
 
 }
 
@@ -357,6 +357,81 @@ background-color: #800000;
 }
 }
 
+@media screen and (max-width: 320px) {
+
+.container {
+    top: 0;
+    left: -77%;
+    background-image: url(./images/colour.svg);
+    height: 250vh;
+    width: 250vw;
+    position: fixed;
+    background-size: 100% auto;
+    background-position: center;
+    z-index: -1;
+    animation: spin 7s ease-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    overflow: hidden;
+
+}
+
+@keyframes spin1 { /*1*/
+	0% {
+		transform: rotate(0deg)
+	}
+	
+
+	100% {
+		transform: rotate(3250deg);
+	}
+}
+
+body.play .container {
+	animation-play-state: running;
+}
+
+}
+
+@media screen and (max-width: 534px) {
+
+.container {
+    top: 0;
+    left: -77%;
+    background-image: url(./images/colour.svg);
+    height: 250vh;
+    width: 250vw;
+    position: fixed;
+    background-size: 100% auto;
+    background-position: center;
+    z-index: -1;
+    animation: spin 7s ease-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    overflow-y: hidden;
+
+}
+
+@keyframes spin1 { /*1*/
+	0% {
+		transform: rotate(0deg)
+	}
+	
+
+	100% {
+		transform: rotate(3250deg);
+	}
+}
+
+body.play .container {
+	animation-play-state: running;
+}
+
+}
+
+}
 
 
 
